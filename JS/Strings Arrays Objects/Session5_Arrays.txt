@@ -1,0 +1,51 @@
+Arrays:
+======
+Def:	It is non-primitive datatype
+	Collection of Disimilar data elements(Heterogeneous)
+
+Ex1:	[10,20,30]	//similar
+Ex2:	[10,false,'Apple']	//disimilar
+
+Note:
+-------
+	1.Arrays are mutable(CAN BE MODIFY) objects
+	2.Arrays elements are accessed by INDEX
+	3.Array index starts with ZERO
+
+Preparation ways:
+--------------------------
+We can prepare Arrays in 2 ways
+	1.Using [,] operator	:	var	a1=[10,20,30];
+	2.Using new keyword	:	var	a2=new	Array();
+
+Array property:
+=============
+1.length	:	returns no of elements in a array
+
+Refer:Ex3.html
+
+Array core methods:
+=================
+1.push()		:add element at ending of array
+2.unshift()	:add element at begining of array
+3.pop()		:remove element at ending of array
+4.shift()		:remove element at begining of array
+5.concat()	:joins two or more arrays
+
+Refer:Ex4.html
+
+Accessing array elements using for loop:
+
+Refer:Ex5.html
+
+
+
+
+
+
+
+
+
+
+
+
