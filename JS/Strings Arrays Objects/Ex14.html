@@ -1,0 +1,27 @@
+<html>
+<body>
+    <script>
+        //approach1
+        var s1={'id':501,'name':'raju'};
+        //approach2
+        var s2={};
+        s2.id=502;
+        s2.name="Vamshi";
+        //approach3
+        var s3=new Object();
+        s3.id=503;
+        s3.name="Chandra";
+        //approach4
+        function Student(id,name)
+        {
+            this.id=id;
+            this.name=name;
+        }
+        var s4=new Student(504,"Shiva")
+        document.write(JSON.stringify(s1)+"<hr>")
+        document.write(JSON.stringify(s2)+"<hr>")
+        document.write(JSON.stringify(s3)+"<hr>")
+        document.write(JSON.stringify(s4)+"<hr>")
+    </script>
+</body>
+</html>

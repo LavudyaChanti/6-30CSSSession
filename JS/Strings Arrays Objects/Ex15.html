@@ -1,0 +1,18 @@
+<html>
+<body>
+    <script>
+        var s1={'id':501,'name':'raju'};
+        document.write(JSON.stringify(s1)+"<hr>")
+        //adding new pair
+        s1.mailid="raju1997@gmail.com"
+        s1.phone=9849098491
+        document.write(JSON.stringify(s1)+"<hr>")
+        //updating existing pair
+        s1.name="raj kumar"
+        document.write(JSON.stringify(s1)+"<hr>")
+        //Deleting existing key & value pair
+        delete s1.phone;
+        document.write(JSON.stringify(s1)+"<hr>")
+    </script>
+</body>
+</html>

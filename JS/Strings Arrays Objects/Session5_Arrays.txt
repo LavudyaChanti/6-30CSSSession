@@ -37,8 +37,25 @@ Refer:Ex4.html
 Accessing array elements using for loop:
 
 Refer:Ex5.html
+___________________________________________________________________________
 
+6.join() 		:joins the elements of an array into a string, and returns the string
+	Ex6.html
+7.splice() 		:add/remove element into array
+	
+syntax:
+	arrayname.splice(index, howmanytoremove, newitem1,.....,newitemN)
 
+	Ex7.html
+
+Arrays Iterator Methods:(Iterator =>Fetching item by item from array)
+=====================
+1.forEach		Ex8.html
+2.every		Ex9.html
+3.some		Ex10.html
+4.filter		Ex11.html
+5.map		Ex12.html
+6.reduce		Ex13.html
 
 
 
