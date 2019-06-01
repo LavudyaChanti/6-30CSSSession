@@ -1,0 +1,31 @@
+<html lang="en">
+<body>
+    <script>
+        var eid=501
+        var ename='AAA'
+        //property value shorthand
+        var e={eid,ename};
+        //alert(JSON.stringify(e))
+        //Existence check
+        //alert('eid' in e)
+        //for..in loop
+        for(var i in e)
+        {
+           // alert(i+"->"+e[i])
+        }
+        //object cloning
+        var e1={'mail':'a@gmail.com'};
+        var e2={'phone':9849098491};
+        var e3={};
+        Object.assign(e3,e1,e2);
+        alert(JSON.stringify(e3))
+        //object functions
+        alert(Object.keys(e3))
+        alert(Object.values(e3))
+        alert(Object.entries(e3))
+        //nested objects
+        //object=data+functions
+        //array of objects
+    </script>
+</body>
+</html>
